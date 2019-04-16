@@ -1,0 +1,27 @@
+{
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "npx tslint --fix -p ."
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "nuxt": "^2.6.2",
+    "nuxt-property-decorator": "^2.1.3",
+    "tachyons": "^4.11.1",
+    "vuex": "^3.1.0"
+  },
+  "devDependencies": {
+    "@nuxt/typescript": "^2.6.2",
+    "prettier": "^1.17.0",
+    "ts-node": "^8.1.0",
+    "tslint": "^5.15.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-plugin-prettier": "^2.0.1",
+    "typescript": "^3.4.3"
+  }
+}
